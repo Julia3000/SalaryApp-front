@@ -4,6 +4,7 @@ import Clock from "./Clock";
 import Toggle from "./Toggle";
 import EmployeeList from "./EmployeeList";
 import NameForm from "./NameForm";
+import Calculator from "./Calculator";
 
 class App extends React.Component {
     render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
                 <Clock />
                 <Toggle />
                 <NameForm />
+                <Calculator />
                 <EmployeeList />
             </div>
         );
