@@ -5,6 +5,7 @@ import Toggle from "./Toggle";
 import EmployeeList from "./EmployeeList";
 import NameForm from "./NameForm";
 import Calculator from "./Calculator";
+import SimpleTable from "./Table";
 
 class App extends React.Component {
     render() {
@@ -16,6 +17,8 @@ class App extends React.Component {
                 <NameForm />
                 <Calculator />
                 <EmployeeList />
+                <Table/>
+
             </div>
         );
     }
