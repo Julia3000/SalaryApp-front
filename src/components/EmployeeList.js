@@ -2,18 +2,25 @@ import React from "react";
 
 class EmployeeList extends React.Component {
 
-    employeeList = ['Ivanov', 'Petrov', 'Sidorov', 'Orlov'];
+    employeeList = ['Ivanov','Petrov', 'Sidorov', 'Orlov'];
 
     render() {
-        const listItems = this.employeeList.map((employee, index)=><li key={index}><a href={employee}>{employee}</a></li>);
+
+    const data =
+        this.employeeList.map((item, i)=>
+    {
         return (
-            <div>
-                <ul>
-                    {listItems}
-                </ul>
-            </div>
+
+            <tr key={i}>
+                <td>{item}</td>
+                <td>78</td>
+            </tr>
+
         );
+    });
+    return (
+            <table><tbody>{ data }</tbody></table>
+    );
     }
 }
-
 export default EmployeeList;

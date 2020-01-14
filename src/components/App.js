@@ -17,8 +17,6 @@ class App extends React.Component {
                 <NameForm />
                 <Calculator />
                 <EmployeeList />
-                <Table/>
-
             </div>
         );
     }
