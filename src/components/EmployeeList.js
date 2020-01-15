@@ -9,8 +9,9 @@ class EmployeeList extends React.Component {
             'middleName' : 'Sergeevna',
             'birthDate' : '24.11.1995',
             'gender' : 'Woman',
-            'passportNumber' : 'BT 203216',
-            'email' : 'julianna24-95@mail.ru'
+            'passportNumber' : '4562г39296',
+            'email' : 'julina24-95@mail.ru',
+            'id' : ''
         },
         {
             'firstName' :'Oleg',
@@ -19,7 +20,8 @@ class EmployeeList extends React.Component {
             'birthDate' : '13.06.1998',
             'gender' : 'Man',
             'passportNumber' : '65454436778',
-            'email' : 'Oleg4325@mail.ru'
+            'email' : 'Oleg4325@mail.ru',
+            'id' : ''
         },
         { 'firstName' :'Victor',
             'lastName' :'Petrov',
@@ -27,14 +29,15 @@ class EmployeeList extends React.Component {
             'birthDate' : '31.03.1990',
             'gender' : 'Man',
             'passportNumber' : '909995643',
-            'email' : 'VictorVx@yandex.com'
+            'email' : 'Victor54x@yandex.com',
+            'id' : ''
         }
     ];
 
     render() {
         return (
             <table>
-                <h3>Список</h3>
+                <caption>Список</caption>
                 <tr>
                     <th>Surname</th>
                     <th>Name</th>
