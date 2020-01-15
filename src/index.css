@@ -1,11 +1,65 @@
+body{
+    margin: 0px;
+}
 .menu li{
     display: inline;
     margin-right: 5px;
-    border: 1px solid #000;
-    padding: 3px;
+    padding: 5px;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu li:hover {
+    box-shadow: 0 0 0 2px deepskyblue inset, 0 0 0 4px white inset;
+    background-color: deepskyblue;
+    font-size: 15px;
+}
+div h1 {
+    position: center;
+    display: block;
+    color: darkblue;
+    padding-left: 500px;
+    font-size: 48px;
+    margin: 10px;
+}
+div h2 {
+    padding-left: 550px;
+    margin: 0px;
+    font-size: 28px;
+}
+button {
+    border: 1px solid darkblue;
+    margin-left: 590px;
+    margin-top: 10px;
+    padding: 10px;
+}
+form {
+    margin: 8px;
+    width: 200px;
+    float: right;
+
+}
+fieldset {
+    width: 250px;
+    display: block;
+    margin-left: 10px;
+}
+p {
+    margin-left: 10px;
 }
 table {
     line-height: 1.1;
     border-collapse: collapse;
+    position: center;
+    margin-left: 300px;
 }
-td {border: 1px solid grey;}
+table > h3 {
+    font-size: 18px;
+    position: center;
+}
+td {
+    border: 1px solid darkblue;
+}
+th{
+    border: 1px solid darkblue;
+}
